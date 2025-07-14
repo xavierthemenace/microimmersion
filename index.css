@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+img {
+    width: 20%;
+}
+div {
+    align-items: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 1.5;
+  padding: 1.5;
+}
+
+li a {
+  display: block;
+  width: 70px;
+  background-color: green;
+}

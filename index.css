@@ -14,17 +14,26 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    padding: 15px;
+    padding: 30px;
+    
 }
+
 
 ul {
   list-style-type: none;
-  margin: 1.5;
-  padding: 1.5;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+li {
+  float: left;
 }
 
 li a {
   display: block;
+<<<<<<< HEAD
   width: 70px;
   background-color: darkseagreen;
 }
@@ -68,4 +77,12 @@ li a {
   border-radius: 12px;
   padding: 50px;
   margin: 50px;
+=======
+  padding: 40px;
+  background-color: rgb(0, 255, 136)
+  
+}
+body {
+  background-color: rgb(48, 54, 56);
+>>>>>>> ae2af531ff9904259887a154c60a979c6163541f
 }

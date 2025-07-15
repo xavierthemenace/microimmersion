@@ -1,8 +1,11 @@
 h1 {
-    color: green;
+    color: darkseagreen;
 }
 img {
     width: 20%;
+}
+h2 {
+    color:darkseagreen
 }
 div {
     align-items: center;
@@ -23,5 +26,46 @@ ul {
 li a {
   display: block;
   width: 70px;
-  background-color: greenyellow;
+  background-color: darkseagreen;
+}
+
+#contactform {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#contactinfo {
+    padding: 5px;
+    border: 2px solid green;
+  border-radius: 12px;
+}
+
+#contactemail {
+    width: 300px;
+    height: 25px;
+    border: 2px solid green;
+  border-radius: 12px;
+}
+
+#contactmessage {
+    width: 500px;
+    height: 200px;
+    border: 2px solid green;
+  border-radius: 12px;
+}
+
+#submit {
+    border: 2px solid green;
+  border-radius: 12px;
+}
+
+#maincontainer {
+    display: flex;
+}
+
+#contactthing {
+ border: 2px solid green;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 50px;
 }

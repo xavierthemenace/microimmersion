@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you! Whether you have questions, feedback, or need support, we're here to help.</p>
+<div id="maincontainer">
+    <div id="contactthing">
+        <h1>Get in touch</h1>
+        <p>We'd love to hear from you! Whether you have questions, feedback, or need support, we're here to help.</p>
 
-    <h2>Email Us</h2>
-    <p>Support: support@projectprobiotic.com</p>
-    <p>Bussiness Inquiries: hello@projectprobiotic.com</p>
+        <h2>📧 Email Us</h2>
+        <p>Support: support@projectprobiotic.com</p>
+        <p>Bussiness Inquiries: hello@projectprobiotic.com</p>
 
-    <div style="background-color: whitesmoke;">
-  <h3>Name</h3>
+        <h2>📱 Follow Us</h2>
+        <p>Stay connected and get nutrition tips, updates and more!</p>
+        <p>Instagram: @projectprobiotic.us</p>
+        <p>Twitter/X: @projectprobiotic.us</p>
+        <p>TikTok: @projectprobiotic.us</p>
 
-    <div style="background-color: whitesmoke;">
-    <h3>Email</h3>
+        <h2>🗺️ Mailing Adress</h2>
+        <p>Project Probiotic LLC</p>
+        <p>456 Welness Dr. Long Beach, CA 90805</p>
+    </div>
 
-    <div style="background-color:whitesmoke;">
-    <h3>Message</h3>
+    
+    <div style="background-color: white;" id="contactform">
+        <h2>📝 Contact Form</h2>
+
+        <form>
+        <label for="fname">First name:</label><br>
+        <input type="text"  name="fname" value="John" id="contactinfo"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text"  name="lname" value="Doe" id="contactinfo"><br>
+        <label for="lname">Email:</label><br>
+        <input type="text"  name="lname" value="@johndoe123@gmail.com" id="contactemail"><br>
+        <label for="lname">Message:</label><br>
+        <textarea type="text"  name="message" value="message" id="contactmessage"></textarea><br>
+        <input type="submit" value="Submit" id="submit">
+        <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I'd like to receive more information about company, I understand and agree to the Privacy Policy</label><br>
+        </form>
+    </div>
+</div>
 </body>
 </html>

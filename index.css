@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 h1 {
-    color: rgb(255, 255, 255);
-    padding: 100%;
-    width: 100%;
+    color: whitesmoke;
 }
 img {
     width: 20%;
 }
 h2 {
-    color: black
+    color: whitesmoke;
+}
+div {
+    align-items: center;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,7 +42,7 @@ li {
 li a {
   display: block;
   width: 70px;
-  background-color: #4aa645;
+  background-color: #C3E8BD;
 }
 
 #contactform {
@@ -49,29 +50,37 @@ li a {
 
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #contactinfo {
     padding: 5px;
-    border: 2px solid green;
+    border: 3px solid #C3E8BD;
   border-radius: 12px;
 }
 
 #contactemail {
     width: 300px;
     height: 25px;
-    border: 2px solid green;
+    border: 3px solid #C3E8BD;
   border-radius: 12px;
 }
 
 #contactmessage {
     width: 500px;
     height: 200px;
-    border: 2px solid green;
+    border: 2px solid #C3E8BD;
   border-radius: 12px;
 }
 
-#submit {
-    border: 2px solid green;
+#button {
+    border: 3px solid #C3E8BD;
   border-radius: 12px;
+  padding: 10px;
+  width: 515px;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #maincontainer {
@@ -79,51 +88,71 @@ li a {
 }
 
 #contactthing {
- border: 2px solid green;
+ border: 3px solid #C3E8BD;
   border-radius: 12px;
   padding: 50px;
-  margin: 50px}
-div {
-  width: 100%;
-  height: 80px;
-  background-color: rgb(0, 255, 136);
+  margin: 50px;
 }
-#nav {
-  background-color: transparent;
-  float: right;
-  margin-left: 100%;
-  width: 100%;
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#article {
-  height: 300px;
-  background-color: #c3e8bd;
+
+#contactthing {
+    background: linear-gradient(to bottom, #14343F 0%, #14343F 100%);
 }
- h5 {
-  font-size: 20px;
-  color: whitesmoke;
+
+#contactform {
+    border: 3px solid #C3E8BD;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 50px;
+    background: linear-gradient(to bottom, #14343F 0%, #14343F 100%);
+}
+body {
+       background: linear-gradient(to bottom,#14343F 0%,#14343F 100%);
+     background-size: cover;
+     height: auto;
+     background-attachment: fixed;
+}
+
+#maincontainer {
+    color: whitesmoke;
+}
+#Login {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C3E8BD;
+    width: 100%;
+    padding: 40px;
+}
+
+#Login2 {
+  padding: 40px;
+}
+#Loginbutton {
+  border: 3px solid #14343F;
+  border-radius: 12px;
+  padding: 10px; 
+  height: 40px;
+  width: 80px;
+  background-color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
-.navbar ul{
-  list-style-type: none;
-  background-color: #4aa645;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-  width: 100%;
+  margin-right: 20px;
 }
-.navbar a{
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
+
+#Signbutton {
+   border: 3px solid #14343F;
+  border-radius: 12px;
+  padding: 10px; 
+  height: 40px;
+  width: 80px;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 70px;
 }
-.navbar a:hover{
-  background-color: gray;
-}
-.navbar li{
-  float: left;
-}
-.information{
-  color: black;
+#Logo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+
 }
